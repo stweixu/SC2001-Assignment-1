@@ -17,7 +17,7 @@ for i in range(1000, 30000, 1000):
     generatedata(i, file_name)
 
 ## GENERATE EVENLY SPREAD DATA ##
-interval = int((10**7-30000)/40) ##40 interval
+interval = int((10**7-30000)/40) #40 data point
 for i in range(30000, 10**7+1, interval):
     file_name = "data" + str(i) +".txt"
     generatedata(i, file_name)
